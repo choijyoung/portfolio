@@ -38,13 +38,13 @@
 
 .hero .content h1{
     font-size: 2rem;
-    padding: 0.6rem 0 1.5rem;
+    padding: 0.6rem 0 0.5rem;
 }
 
-.hero .content p{
+.hero .content h3{
     front-size: 1.4rem;
-    font-weight: 200;
-    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.6rem 0 1rem;
 }
 
 .content .btn {

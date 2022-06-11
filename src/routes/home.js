@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import HeroImg from '../components/HeroImg'
+import Footer from '../components/footer'
 
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <HeroImg />
+      <Footer />
     </div>
   )
 }

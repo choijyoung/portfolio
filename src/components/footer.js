@@ -19,8 +19,8 @@ const Footer = () => {
                 <h4>About Me!</h4>
                 <p>Hello! I am a Developer based in Philadelphia, PA. You can reach me here!</p>
                     <div className="social">
-                        <FaLinkedin size={30} style={{ color: "black", marginRight:"1rem" }} />
-                        <FaGithub size={30} style={{ color: "black", marginRight:"1rem" }} />
+                        <FaLinkedin size={30} style={{ color: "white", marginRight:"1rem" }} />
+                        <FaGithub size={30} style={{ color: "white", marginRight:"1rem" }} />
                     </div>
             </div>
         </div>

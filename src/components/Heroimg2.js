@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './HeroImg2.css'
 
-const Heroimg2 = () => {
+class Heroimg2 extends Component {
+  render() {
   return (
     <div className='heroimg'>
         <div className='heading'>
-            <h1>This is a heading</h1>
-            <p>This is a text</p>
+            <h1>{this.props.heading}</h1>
+            <p>{this.props.text}</p>
         </div>
     </div>
   )
+}
 }
 
 export default Heroimg2

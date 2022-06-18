@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left">
                 <div className="location">
-                    <h4><FaHome size={20} style={{ color: "black", marginRight:"2rem" }} /> Based in Philadelphia, PA</h4>
+                    <h4><FaHome size={20} style={{ color: "white", marginRight:"2rem" }} /> Based in Philadelphia, PA</h4>
                 </div>
                 <div className="email">
-                    <h4><FaMailBulk size={20} style={{ color: "black", marginRight:"2rem" }} /> Choi.jae.y@gmail.com</h4>
+                    <h4><FaMailBulk size={20} style={{ color: "white", marginRight:"2rem" }} /> Choi.jae.y@gmail.com</h4>
                 </div>
             </div>
             <div className="right">
